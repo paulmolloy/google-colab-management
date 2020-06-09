@@ -5,9 +5,11 @@
 Run a command in terminal to open a shell terminal in colab.
 And whatever git repo you pass or local jupyter notebook.
 
-#Done 
+![Image of terminal and colab opened by manager](doc/google-drive-shell-colab.png)
 
-#Not Done
+# Done 
+
+# Not Done
 
 Client script which takes in username.
 
@@ -37,18 +39,17 @@ It will start setup.ipynb quietly in the browser. Run a startup script for you i
 
 
 
+# Stuff I'm Using + Inspiration.
 
 
-## Proper ssh Shell and automated Gdrive auth.
-
-
+## An easy way to get a shell. 
 
 https://ngrok.com/
 
-## Automated Google Drive automation:
+## Automated Google Drive mounting:
 https://stackoverflow.com/questions/57772453/login-on-colab-with-gcloud-without-service-account
 
-## A really cool CLI interface for google colab that Akshay Ashok made:
+## A pretty cool CLI for google colab that Akshay Ashok made:
 https://towardsdatascience.com/heres-how-i-made-a-cli-tool-to-work-with-google-colab-notebooks-7678a88ca662
 
 
