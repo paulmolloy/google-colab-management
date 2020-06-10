@@ -15,6 +15,7 @@ Client script which takes in username.
 
 Asks for ngrok api token.
 Give link to https://ngrok.com/
+Copy an auth token from https://dashboard.ngrok.com/get-started/setup here.
 Ask for ssh password user wants to use.
 
 Gives setup.ipynb jupyter notebook  to put in google colab.
