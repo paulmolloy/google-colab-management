@@ -16,6 +16,9 @@ Post an ngrok tunnel:
 
 ```
 curl -d '{"ID":"test","User":"root","URL":"0.tcp.ngrok.io","Port":"16942","RawURL":"root@tcp://0.tcp.ngrok.io:16988"}' -H "Content-Type: application/json" -X POST http://localhost:8443/google-colab-manager/api/tunnel
+
+curl -d '{"ID":"test","User":"root","URL":"0.tcp.ngrok.io","Port":"16942","RawURL":"root  @tcp://0.tcp.ngrok.io:16988"}' -H "Content-Type: application/json" -X POST https://pmolloy.com:8443/google-colab-manager/api/tunnel
+
 ```
 
 To Get a tunnel go to pmolloy.com:16988/google-colab-manager/api/tunnels/{id}
