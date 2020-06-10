@@ -9,6 +9,20 @@ And whatever git repo you pass or local jupyter notebook.
 
 # Done 
 
+Server api:
+ID is a hash of the user email.
+
+Post an ngrok tunnel:
+
+```
+curl -d '{"ID":"test","User":"root","URL":"0.tcp.ngrok.io","Port":"16942","RawURL":"root@tcp://0.tcp.ngrok.io:16988"}' -H "Content-Type: application/json" -X POST http://localhost:8443/google-colab-manager/api/tunnel
+```
+
+To Get a tunnel go to pmolloy.com:16988/google-colab-manager/api/tunnels/{id}
+
+```
+curl -X GET http://localhost:8443/google-colab-manager/api/tunnels/test
+```
 # Not Done
 
 Client script which takes in username.

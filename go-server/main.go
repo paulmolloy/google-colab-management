@@ -18,7 +18,7 @@ const port = "8443"
 
 
 type ngrokTunnel struct { 
-    ID string `json:"Token"`
+    ID string `json:"ID"`
     User string `json:"User"`
     URL string `json:"URL"`
     Port string `json:"Port"`
@@ -73,8 +73,8 @@ func main() {
         ID: "test",
         User: "root",
         URL: "0.tcp.ngrok.io",
-        Port: "16942",
-        RawURL: "root@tcp://0.tcp.ngrok.io:16988",
+        Port: "16943",
+        RawURL: "root@tcp://0.tcp.ngrok.io:16943",
     }
 
 	srv := NewServer(port)
